@@ -1,7 +1,7 @@
 import React, { useState ,useEffect } from "react";
 import { FaBars, FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../../Images/logo_tri.png"
+import Logo from "../../../Images/logoo.png"
 import cookie from "js-cookie"
 
 const Navbar = () => {

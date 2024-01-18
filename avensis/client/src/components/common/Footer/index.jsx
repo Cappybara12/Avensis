@@ -86,7 +86,7 @@ const Footer = () => {
             <div class="contact2 w-[80%] md:flex justify-between mb-12">
                 <div className=''>
                   <span className="contactname  ">
-                  Akshay </span><span class="contactcoma"><br/> </span><span>Events Head</span><br/>
+                  Akshay </span><span class="contactcoma"><br/> </span><span>Avensis Team</span><br/>
                   <span>+91 92121**315</span></div>
                 {/* <div>
                   <span class="contactname">Tanay Aggarwal</span><span class="contactcoma"><br/> </span><span >Chief Organizer </span><br/>
