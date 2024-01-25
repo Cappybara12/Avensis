@@ -86,11 +86,11 @@ const index = () => {
                 <div className='md:ml-[10%] md:mt-12'>
                 <div className='md:flex'>
                     <div className='bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[340px] md:w-[370px] h-[120px] md:h-[160px] mx-[5%]'>
-                        <img className='w-[120px]' src={Events[7].tabs[0].image} alt="" />
+                        <img className='w-[120px]' src={Events[10].tabs[0].image} alt="" />
                         <div className='text-white pl-3 font-[roboto]'>
-                            <h1 className='text-xl md:text-2xl font-bold'></h1>
+                            <h1 className='text-xl md:text-2xl font-bold'>CODE CRUNCH</h1>
                             {/* <h1 className='text-sm text-[#EBB22D] mt-6 blur-[3px]'>Rs 1000/-</h1> */}
-                            <h1 className='text-sm mt-6'></h1>
+                            <h1 className='text-sm mt-6'>JAN 31st</h1>
                         </div>
                     </div>
                     <div className='bg-[#1D1332] mt-6 md:mt-0 flex rounded-lg p-2 md:p-4 w-[340px] md:w-[370px] h-[120px] md:h-[160px] mx-[5%]'>
@@ -109,17 +109,17 @@ const index = () => {
                         <div className='bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[340px] md:w-[370px] h-[120px] md:h-[160px] mx-[5%]'>
                             <img src={Events[13].tabs[0].image} className='w-1/2' alt="" />
                             <div className='text-white pl-3 font-[roboto]'>
-                                <h1 className='text-2xl font-bold'></h1>
+                                <h1 className='text-2xl font-bold'>GULLY CRICKET</h1>
                                 {/* <h1 className='text-sm text-[#EBB22D] mt-6 blur-[3px]'>Rs 1799/-</h1> */}
-                                <h1 className='text-sm mt-6'></h1>
+                                <h1 className='text-sm mt-6'>JAN 31st</h1>
                             </div>
                         </div>
                         <div className=' mt-6 md:mt-0 bg-[#1D1332] flex rounded-lg  p-2 md:p-4 w-[340px] md:w-[370px] h-[120px] md:h-[160px] mx-[5%]'>
-                            <img src={Events[5].tabs[0].image} alt="" />
+                            <img src={Events[11].tabs[0].image} alt="" />
                             <div className='text-white pl-3 font-[roboto]'>
-                                <h1 className='text-2xl font-bold'></h1>
+                                <h1 className='text-2xl font-bold'>UI Utopia</h1>
                                 {/* <h1 className='text-sm text-[#EBB22D] mt-6 blur-[3px]'>Rs 1799/-</h1> */}
-                                <h1 className='text-sm mt-6'></h1>
+                                <h1 className='text-sm mt-6'>JAN 31st</h1>
                             </div>
                         </div>
                     </div>
