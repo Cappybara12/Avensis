@@ -11,7 +11,6 @@ import kratika from '../../../Images/team/kratika.jpg'
 import harsh from '../../../Images/team/harsh.jpg'
 import { FiMail } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
-import { FaFirefoxBrowser } from "react-icons/fa";
 
 const Footer = () => {
   const [count, setCount] = useState(0);
@@ -86,16 +85,16 @@ const Footer = () => {
             <div class="contact2 w-[80%] md:flex justify-between mb-12">
                 <div className=''>
                   <span className="contactname  ">
-                  Akshay </span><span class="contactcoma"><br/> </span><span>Avensis Team</span><br/>
-                  <span>+91 92121**315</span></div>
-                {/* <div>
-                  <span class="contactname">Tanay Aggarwal</span><span class="contactcoma"><br/> </span><span >Chief Organizer </span><br/>
-                <span>+91 83768 93416</span>  
+                  Krish </span><span class="contactcoma"><br/> </span><span>Cheif Organizer</span><br/>
+                  <span>+91 9871601918</span></div>
+                 <div>
+                  <span class="contactname">Deepak</span><span class="contactcoma"><br/> </span><span >Chief Organizer </span><br/>
+                <span>+91 84477 40842 </span>  
                 </div>
-                <div>
+                {/* <div>
                   <a href='https://sites.google.com/view/shloksportfolio' ><span class="contactname">Shlok Rana</span><span class="contactcoma"><br/> </span><span>Chief Organizer </span><br/>
                   <span>+91 96435 66916</span></a>
-                </div> */}
+                </div> */} 
             </div>
         </div>
 
@@ -115,7 +114,7 @@ const Footer = () => {
           </div>
                   <div className=''>
                <h4> MSIT C-4 JANAKPURI, Delhi 110058 </h4>
-              </div><h4 className="text-[12px] md:text-sm ">Coded with ❤ by <button onClick={displayTeam} className=   'text-[#EBB22D] font-bold text-[13px]'>Geek Room</button></h4>
+              </div><h4 className="text-[12px] md:text-sm ">Coded with ❤ by <button onClick={displayTeam} className=   'text-[#EBB22D] font-bold text-[13px]'>MSIT</button></h4>
         </div>
           
 
@@ -135,8 +134,6 @@ const Footer = () => {
                 <button onClick={hideTeam} type="button" id="closeteam" className='ml-[85%] my-2' data-dismiss="modal">Close</button>
               </div>
                  }
-
-
 
 
 
