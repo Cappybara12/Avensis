@@ -14,16 +14,19 @@ import conq from '../Images/Events/literary/conq.jpeg'
 import physchs from '../Images/Events/coming.jpg'
 import threads from '../Images/Events/coming.jpg'
 import image22 from '../Images/Events/coming.jpg'
-import image23 from '../Images/Events/coming.jpg'
+import image23 from '../Images/Events/Technical/Hackavenue/hackavensis.png'
+import cruntch from '../Images/Events/Technical/Hackavenue/crunch.png'
+import utopia  from '../Images/Events/Technical/Hackavenue/utopia.png'
+
 
 export const Events = [
   {
     id: 0,
-    name:"Clue minati",
+    name:"Creative Canvas",
     catName:"fun_crev",
     desc:"prize: ₹3000 ",
-    date: "APRIL 19th",
-    time: "11:00am - 1:00pm",
+    date: "January 31st",
+    time: "11:00am - 12:30pm",
     tabs: [
       {
         name:"ABOUT",
@@ -60,10 +63,10 @@ export const Events = [
   },
   {
     id: 1,
-    name:"Meme and you",
+    name:"Memeverse",
     catName:"fun_crev",
-    date: "APRIL 19th",
-    time: "11:00am - 1:00pm",
+    date: "January 31st",
+    time: "11:00am - 12:30pm",
     desc:"prize: ₹3000 ",
     tabs: [
       {
@@ -103,7 +106,7 @@ export const Events = [
         id: 2,
         name:"BGMI",
         catName:"gaming",
-        date: "APRIL 19th",
+        date: "January 31st",
         time: "11:00am - 1:00pm",
         desc:"",
         tabs: [
@@ -138,8 +141,8 @@ export const Events = [
       id: 3,
       name:"STUMBLE GUYS",
       catName:"gaming",
-      date: "APRIL 19th",
-      time: "11:00am - 1:00pm",
+      date: "January 31st",
+      time: "2:00pm - 4:30pm",
       desc:"",
       tabs: [
         {
@@ -166,7 +169,7 @@ export const Events = [
       id: 4,
       name:"VALORANT",
       catName:"gaming",
-      date: "APRIL 19th",
+      date: "January 31st",
        time: "11:00am - 1:00pm",
       desc:"",
       tabs: [
@@ -201,8 +204,8 @@ export const Events = [
       id: 5,
       name:"COD",
       catName:"gaming",
-      date: "APRIL 19th",
-       time: "11:00am - 1:00pm",
+      date: "January 31st",
+       time: "2:00pm - 4:30pm",
       desc:"",
       tabs: [
         {
@@ -233,9 +236,11 @@ export const Events = [
       ],
     },{
       id: 6,
-      name:"Pick up the thread",
-      catName:"literary",
-      date: "APRIL 19th",
+      name:"Robo War",
+      catName:"robotics",
+      time: "1:00pm - 3:30pm",
+
+      date: "January 31st",
      
       desc:"PRIZE: ₹3000 ",
       tabs: [
@@ -275,9 +280,9 @@ export const Events = [
 
     {
       id: 7,
-      name:" ",
-      catName:"literary",
-      date: "APRIL 19th",
+      name:" Robo maze",
+      catName:"robotics",
+      date: "January 31st",
       // time: "11:00am - 1:00pm",
       desc:"Prizes: ₹3500 and ₹1500",
       tabs: [
@@ -319,10 +324,10 @@ export const Events = [
 
     {
       id: 8,
-      name:"Sike the Psych",
-      catName:"literary",
-      date: "APRIL 19th",
-      // time: "11:00am - 1:00pm",
+      name:"ROBO SOCCER",
+      catName:"robotics",
+      date: "January 31st",
+      time: "12:00am - 2:30pm",
       desc:"Prizes - ₹5000 and ₹1500",
       tabs: [
         {
@@ -396,35 +401,34 @@ export const Events = [
     },
     {
       id: 10,
-      name:"",
-      desc:"",
-      date: "",
-      time: "1",
-      catName:"technical",
-      link:"https://forms.gle/X37fV4ErVgpoUZCk6",
-      tabs: [
+      name:"CODE CRUNCH",
+      desc:"PRIZE: Worth ₹6,000 ",
+      date: "Jan 31st",
+      time: "11:00am - 1:30pm",
+      link:"https://forms.gle/DRYqRjoQXjMwWgSR8",
+      catName:"technical",      tabs: [
         {
           name:"ABOUT",
-          image: image22,
+          image: cruntch,
           id:0,
           content: "Welcome to the Labyrinth of programming residing coding challengers with various hit points, defeat the challenger and heal yourself as well as win existing rewards.<br/><br/>Once you enter the Labyrinth you will be given HP of 300s and facing the 1st coding challenger, once you beat the challenger you will get extra HP of 300s, similarly for beating the 2nd challenger you will be given the same amount of HP, but the excitement begins as you beat the 3rd challenger, this time you will be winning a reward as well and gain HP of 420s, and for beating the 4th challenger you will be getting a HP of 600s, bigger rewards and a gateway to beat the ultimate challenger, defeat him you shall be known as “THE CONQUEROR”."
         },
         {
           name:"NOTE",
-          image: image22,
+          image: cruntch,
           id:1,
           content: " The Labyrinth is considered as one of the most lethal places by the scholars, which is yet to be conquered, so it’s essential to enter it with your partner.<br/>Once your HP reaches zero you won’t be able to respawn.<br/>Each health point is equal to 1 second of life."
                     
         },
         { 
           name:"TIPS",
-          image: image22,
+          image: cruntch,
           id:2,
           content: " <div className= 'font-bold text-white'> Try to beat the challengers as fast as possible as it will help you to gain a chance to beat the ultimate challenger.</div>"
         }  ,  
         { 
           name:"VENUE",
-          image: image22,
+          image: cruntch,
           id:3,
           content: " <div className= 'font-bold text-white'> MSIT , C-4 Janakpuri </div>"
         } 
@@ -432,80 +436,116 @@ export const Events = [
   },
   {
     id: 11,
-    name:"",
-    desc:"",
-    date: "",
-    time: "",
-    link: "https://forms.gle/WMbWH4NPvagp1btj7",
-    catName:"technical",
+    name:"UI UTOPIA",
+    desc:"PRIZE: Worth ₹6,000 ",
+    date: "Jan 31st",
+    time: "11:00 am to 1:30pm",
+    link:"https://forms.gle/DRYqRjoQXjMwWgSR8",
+    catName:"technical",    catName:"technical",
     tabs: [
-      {
+    {
         name:"ABOUT",
-        image: image23,
+        image: utopia,
         id:0,
-        content: "<span className='text-[#4A9FA0] font-semibold' >What is the WIX platform,<span/><br/><br/>Welcome to Web Wizard and Join us for an exciting event where you'll learn how to design your stunning website using the user-friendly WIX platform, with absolutely no coding required! Whether you're a fresher, aspiring to be a web developer, or just someone who wants to create a professional-looking website, this event is for you.<br/><br/>No coding experience is required, making this event accessible to everyone, from beginners to those with some web design knowledge. WIX is a popular website design platform known for its intuitive interface and flexibility, making it a great choice for anyone looking to create a professional website without the need for coding skills.<br/><br/>Don't miss this opportunity to unlock your creativity and design a website that truly represents you or your business. Join us for an empowering event and take the first step towards building your dream website with WIX!"
-      },
-      {
-        name:"THEMES",
-        image: image23,
+        content: "Welcome to UTOPIA, where imagination meets innovation in the realm of UI/UX design! This competition transcends traditional boundaries, inviting designers to craft digital experiences that inspire, captivate, and revolutionize. <br/><br/>In image23, participants harness the power of Figma to sculpt user interfaces that redefine user interactions, elevate aesthetics, and breathe life into pixels. From sleek minimalism to vibrant exuberance, every design tells a story, weaving a tapestry of creativity and functionality. <br/><br/>Embrace the challenge, unleash your creativity, and embark on a journey to shape the future of digital experiences. In image23, the canvas is yours, and the possibilities are limitless."
+    },
+    {
+        name:"WINNING CRITERIA",
+        image: utopia,
         id:1,
-        content: " <div className='font-bold '><ul><li>1. Sustainable Fashion and Beauty Blog.</li><br/><li>2. Pet Adoption and Rescue/Secure.</li><br/><li>3. Virtual Fitness Studio.</li><br/><li>4. Meditation for a Healthy Mind.</li></ul></div>"
-                  
-      },
-      { 
-        name:"DESCRIPTION",
-        image: image23,
+        content: "<div className=''>1.	The competition will follow a judging criteria based on the following aspects:<br/>    a.	Usability: Intuitiveness, ease of navigation, and overall user experience.<br/>    b.	Visual Appeal: Aesthetics, use of color, typography, and visual hierarchy.<br/>    c.	Innovation: Creativity, originality, and uniqueness of design concepts.<br/>    d.	Functionality: Practicality, responsiveness, and adherence to design principles.<br/>2.	Participants must submit their Figma prototypes for evaluation before the designated deadline.<br/>3.	Judges' decisions will be final and binding.<br/>4.	Any attempt at plagiarism or violation of intellectual property rights will result in immediate disqualification.</div>"
+    },
+    {
+        name:"SPECIFICATION",
+        image: utopia,
         id:2,
-        content: " <div className= 'font-bold text-white'>What is in the Event:<br/><br/>1. After Registration, the Participants get allotted 1 desktop.<br/><br/>2. On choosing a favourable topic they have 1 hour to design their website to compete with other participants to secure their points.<br/><br/>3.Participants or the team selected by our judges is pronounced as the winner.</div>"
-      }  ,
-      { 
-        name:"VENUE",
-        image: image23,
+        content: " <div className=''> <span className=' text-[#4A9FA0] font-bold '>DESIGN SPECIFICATION: <br/> </span>1.	Participants must design their interfaces exclusively using Figma, adhering to a no-code approach.<br/>2.	Designs should be responsive and adaptable to various screen sizes and devices.<br/>3.	Utilization of Figma plugins and resources is permitted to enhance design efficiency and creativity.<br/>4.	Designs must be original and free from any copyrighted material or trademarks.<br/>5.	Participants are encouraged to provide a brief rationale or user story behind their design choices.<br/></div> "
+    },
+    {
+        name:"RULES",
+        image: utopia,
         id:3,
-        content: " <div className= ' text-[#4A9FA0] text-white'> <span className=' text-white font-bold'> LAB-05 </span> <br/> MSIT GROUND FLOOR </div>"
-      } 
-  ],
+        content: " <div className='text-2xl'>1.	Individuals or teams of up to three members are eligible to participate in image23.<br/>2.	Participants must register and submit their entries within the specified timeline to qualify for evaluation.<br/>3.	All designs must be submitted in Figma format (.fig) along with a brief description outlining the design rationale.<br/>4.	Any form of unethical behavior, including but not limited to plagiarism or sabotage, will lead to immediate disqualification.<br/>5.	The organizers reserve the right to modify the rules or judging criteria if deemed necessary.<br/></div>"
+    },
+    {
+        name:"VENUE",
+        image: utopia,
+        id:4,
+        content: "  <span className=' text-[#4A9FA0] font-bold '>VIRTUAL EVENT.  </span>   "
+    },
+]
+
 },
 {
   id: 12,
-name:"Robo_war",
-catName:"robotics",
-date: "APRIL 19th",
-time: "1:30pm Onwards",
-desc:"PRIZES: ₹6000, ₹4000, ₹3000",
-link:"https://forms.gle/fF9MAEarfxnX5v2H8",
-tabs: [
-{
-  name:"ABOUT",
-  image: robowar,
-  id:0,
-  content: " ROBOWAR is a combat competition. The only way to win the fight is that you have to pin down  or destroy the opponent robot. The fittest one will survive in this event. Robots may be equipped  with mechanical weapons such as blades, saws, cutters, claws etc.  "
+  name: "HACK AVENSIS",
+  desc: "Hackathon",
+  date: "Jan 31st",
+  time: "1:00 PM - 4:30 PM",
+  link: "https://forms.gle/WMbWH4NPvagp1btj7",
+  catName: "technical",
+  tabs: [
+      {
+          name: "ABOUT",
+          image: image23,
+          id: 0,
+          content: "<span className='text-[#4A9FA0] font-semibold'>Welcome to HACK AVENSIS!</span><br/><br/>Hack Avensis is more than just a hackathon; it's an innovation hub where ideas meet execution and dreams take flight. Join us for an adrenaline-fueled journey into the world of hacking, where creativity, collaboration, and code converge to solve real-world problems.<br/><br/>This hackathon isn't just for seasoned developers; it's for anyone with a passion for problem-solving and a drive to make a difference. Whether you're a coding whiz or a newbie eager to learn, there's a place for you at HACK AVENSIS.<br/><br/>Get ready to immerse yourself in a whirlwind of innovation, mentorship, and excitement. Together, let's code, create, and change the world, one line at a time!"
+      },
+      {
+          name: "PROBLEM STATEMENTS",
+          image: image23,
+          id: 1,
+          content: "<div className='font-bold'><ul><li>1. Enhancing Healthcare Accessibility through Telemedicine Solutions.</li><br/><li>2. Sustainable Solutions for Waste Management in Urban Areas.</li><br/><li>3. Revolutionizing Online Education Platforms for Enhanced Learning Experience.</li><br/><li>4. Optimizing Supply Chain Management for Improved Efficiency.</li></ul></div><br/>Stay updated on Unstop site for the detailed problem statements. Register now to secure your spot and receive all necessary updates!"
+      },
+      {
+          name: "GUIDELINES",
+          image: image23,
+          id: 2,
+          content: "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>- Teams must consist of 2-4 members, with diverse skill sets encouraged for optimal collaboration.<br/><br/>- Participants must register using the provided link before the event date to ensure seamless participation.<br/><br/>- Code submissions must adhere to ethical standards and respect intellectual property rights.<br/><br/>- Participants are encouraged to leverage open-source resources and APIs, but plagiarism is strictly prohibited.<br/><br/>- Each team will have designated time slots for presentations and demos, with judges evaluating projects based on creativity, functionality, and impact.<br/><br/>- Collaboration and teamwork are key; foster a supportive environment, share knowledge, and have fun hacking!</div>"
+      },
+      {
+          name: "VENUE",
+          image: image23,
+          id: 3,
+          content: "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>"
+      }
+
+
+],
 },
 {
-  name:"WINNING CRITERIA",
-  image: robowar,
-  id:1,
-  content: "<div className=''>1.	The competition will be played on a knock-out basis consisting of 2 players at a time.  <br/>2.	The maximum duration of each War/Fight will be 10 minutes.  <br/>3.	The robot will win if the robot pushes the opponent to the ditch successfully or  successfully immobilizes the opponent or out of the arena.  <br/>4.	Match will be interrupted if crossings of wire take place.  <br/>5.	No member will be allowed to enter the war zone without permission of coordinators.  <br/>6.	The organizers reserve the rights to change any or all of the above rules as they deem  fit.  <br/>7.	Violation of any of the above rules will lead to disqualification.  <br/></div>"
-             
-},
-{
-  name:"SPECIFICATION",
-  image: robowar2,
-  id:2,
-  content: " <div className=''> <span className=' text-[#4A9FA0] font-bold '>ROBOT SPECIFICATION :  <br/> </span> 1.	Maximum permissible volume. Fully unfolded robot must be within the limits of 40 cm X  55 cm (l x b). There is no maximum height for a robot (dictated by the design and weight  constraints).  <br/>2.	Robots can have weapons such as cutters, flippers, saws, lifting devices, spinning  hammers etc. Use of liquid projectiles, any kind of inflammable liquid, flame-based  weapons, radio jamming devices, high power magnets or electromagnets, are not  permitted  <br/> 3.	Both AC and DC controlled voltage systems are allowed.  </div> "
-},
-{
-  name:"RULES",
-  image: robowar3,
-  id:3,
-  content: " <div className='text-2xl'>	1.	Each team can have a maximum of four members. Students from different institutes can form  a team .  <br/>2.	Robots will be inspected for safety and reliability before being allowed to compete.  <br/>3.	Disrupting an opponent's power is not allowed.   <br/></div>"
-},
-{
-  name:"VENUE",
-  image: robowar4,
-  id:4,
-  content: "  <span className=' text-[#4A9FA0] font-bold '> MSIT BADMMINTON COURT.  </span>   "
-},
+  id: 13,
+  name: "SCAVENGER HUNT",
+  desc: "cultural",
+  date: "Jan 31st",
+  time: "11:00 AM - 1:30 PM",
+  link: "https://forms.gle/WMbWH4NPvagp1btj7",
+  catName: "technical",
+  tabs: [
+      {
+          name: "ABOUT",
+          image: robomaze,
+          id: 0,
+          content: "<span className='text-[#4A9FA0] font-semibold'>Welcome to HACK AVENSIS!</span><br/><br/>Hack Avensis is more than just a hackathon; it's an innovation hub where ideas meet execution and dreams take flight. Join us for an adrenaline-fueled journey into the world of hacking, where creativity, collaboration, and code converge to solve real-world problems.<br/><br/>This hackathon isn't just for seasoned developers; it's for anyone with a passion for problem-solving and a drive to make a difference. Whether you're a coding whiz or a newbie eager to learn, there's a place for you at HACK AVENSIS.<br/><br/>Get ready to immerse yourself in a whirlwind of innovation, mentorship, and excitement. Together, let's code, create, and change the world, one line at a time!"
+      },
+      {
+          name: "PROBLEM STATEMENTS",
+          image: robomaze,
+          id: 1,
+          content: "<div className='font-bold'><ul><li>1. Enhancing Healthcare Accessibility through Telemedicine Solutions.</li><br/><li>2. Sustainable Solutions for Waste Management in Urban Areas.</li><br/><li>3. Revolutionizing Online Education Platforms for Enhanced Learning Experience.</li><br/><li>4. Optimizing Supply Chain Management for Improved Efficiency.</li></ul></div><br/>Stay updated on Unstop site for the detailed problem statements. Register now to secure your spot and receive all necessary updates!"
+      },
+      {
+          name: "GUIDELINES",
+          image: robomaze,
+          id: 2,
+          content: "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>- Teams must consist of 2-4 members, with diverse skill sets encouraged for optimal collaboration.<br/><br/>- Participants must register using the provided link before the event date to ensure seamless participation.<br/><br/>- Code submissions must adhere to ethical standards and respect intellectual property rights.<br/><br/>- Participants are encouraged to leverage open-source resources and APIs, but plagiarism is strictly prohibited.<br/><br/>- Each team will have designated time slots for presentations and demos, with judges evaluating projects based on creativity, functionality, and impact.<br/><br/>- Collaboration and teamwork are key; foster a supportive environment, share knowledge, and have fun hacking!</div>"
+      },
+      {
+          name: "VENUE",
+          image: robomaze,
+          id: 3,
+          content: "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>"
+      }
 
 
 ],
@@ -513,12 +553,13 @@ tabs: [
 
 
 
+
 {
-id: 13,
-name:"Line following Robo Maze",
-date: "APRIL 19th ",
-time: "10:30pm Onwards",
-catName:"robotics",
+id: 14,
+name:"Gully Cricket",
+date: "January 31st ",
+time: "11:00 AM - 1:30 PM",
+catName:"cultural",
 desc:"PRIZES: ₹3000, ₹2000, ₹1000",
 link:"https://forms.gle/wpzQ4XNEYC7nZaFD9",
 tabs: [
@@ -556,52 +597,5 @@ content: "<span className=' text-[#4A9FA0] font-bold '> SEMINAR HALL 4TH FLOOR. 
 
 
 ],
-},
-
-{
-  id: 14,
-name:"Clue minati",
-catName:"fun_crev",
-desc:"prize: ₹3000",
-date: "APRIL 19th",
-time: "11:00am - 1:00pm",
-link:"https://forms.gle/y1ENMVrmZVaNFjdq7",
-tabs: [
-{
-  name:"ABOUT",
-  image: clue,
-  id:0,
-  content: "Each team will be given hurdles along with a treasure map for the initial round based , this round will be time based and if the team has completed hurdles within that time frame. That team will move forward to the final round. We will be dividing the slots based on number of teams that have registered. In the last round, we will be conducting some fun tasks which will help us decide our winner.  "
-},
-{
-  name:"CHARGE",
-  image: clue,
-  id:1,
-  content: " 50 Rs per Team "
-             
-},
-{
-  name:"EXPECTED FOOTFALL",
-  image: clue, 
-  id:2,
-
-  content: " 10 teams "
-},
-{
-  name:"RULES",
-  image: clue,
-  id:3,
-  content: " <div className='text-2xl'>	We will keep track of time. <br/>The team which will complete the task within the time frame will proceed to the last round. <br/>The top 2 teams will be announced as winners at the end of the day. <br/></div>"
-},
-{
-  name:"VENUE",
-  image: clue,
-  id:4,
-  content:    "  <span className=' text-[#4A9FA0] font-bold '>Infront of Boy’s Hostel   </span>   "
-},
-
-
-],
-},
-
+}
 ];

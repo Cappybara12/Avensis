@@ -43,10 +43,10 @@ const Index = () => {
       });
 
       const literary = Events.slice(6,9);
-      const technical = Events.slice(9,12);
+      const technical = Events.slice(9,13);
       const gaming = Events.slice(2,6);
       const creativity = Events.slice(0,2);
-      const robotics = Events.slice(12,14);
+      const cultural = Events.slice(13,15);
 
 
   return (
@@ -90,18 +90,37 @@ const Index = () => {
             <img src={circle} class="circle2"/> */}
           <span class="eventstitle">ROBOTICS</span>
           <div class="event-boxes">
-            {
-            }
-        </div>
+          {
+                literary.map(event => (
+                    <EventCard
+                        catName = {event.catName}
+                        id = {event.id}
+                        name = {event.name}
+                        time = {event.time}
+                        image = {event.tabs[0].image}
+                        date = {event.date}
+                        desc = {event.desc}
+ 
+                    />
+                ))
+            }        </div>
       </div>
       <div class="event-theme">
             {/* <img src={circle} class="circle1"/>
             <img src={circle} class="circle2"/> */}
-          <span class="eventstitle">LITERARY</span>
+          <span class="eventstitle">CULTURAL</span>
           <div class="event-boxes">
             {
-                literary.map(event => (
+                cultural.map(event => (
                     <EventCard
+                                            catName = {event.catName}
+                        id = {event.id}
+                        name = {event.name}
+                        time = {event.time}
+                        image = {event.tabs[0].image}
+                        date = {event.date}
+                        desc = {event.desc}
+
                     />
                 ))
             }
@@ -115,6 +134,14 @@ const Index = () => {
             {
                 gaming.map(event => (
                     <EventCard
+                                            catName = {event.catName}
+                        id = {event.id}
+                        name = {event.name}
+                        time = {event.time}
+                        image = {event.tabs[0].image}
+                        date = {event.date}
+                        desc = {event.desc}
+
                     />
                 ))
             }
@@ -128,6 +155,14 @@ const Index = () => {
             {
                 creativity.map(event => (
                     <EventCard
+                                            catName = {event.catName}
+                        id = {event.id}
+                        name = {event.name}
+                        time = {event.time}
+                        image = {event.tabs[0].image}
+                        date = {event.date}
+                        desc = {event.desc}
+
                     />
                 ))
             }

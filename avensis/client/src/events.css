@@ -152,7 +152,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
     padding-left: 15%;
     padding-right: 15%;
     justify-content: space-around;
@@ -162,7 +161,7 @@
     align-items: center;
     padding-top: 5%;
     z-index: 5;
-    
+
 }
 .eventstitle{
     color: white;
