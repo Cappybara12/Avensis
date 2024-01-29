@@ -1,22 +1,20 @@
 import image1 from '../Images/Events/Geekroomevent.png';
-import robowar from '../Images/Events/coming.jpg'
-import robowar2 from '../Images/Events/coming.jpg'
-import robowar3 from '../Images/Events/coming.jpg'
-import robowar4 from '../Images/Events/coming.jpg'
-import robomaze from '../Images/Events/coming.jpg'
-import clue from '../Images/Events/coming.jpg'
-import meme from '../Images/Events/coming.jpg'
-import bgmi from '../Images/Events/coming.jpg'
-import cod from '../Images/Events/coming.jpg'
+
+import scav from '../Images/Events/fun_crev/Pos_ScavengerHunt_6.PNG'
+import gully from '../Images/Events/fun_crev/GullyCricket_4x4.PNG'
+
+import clue from '../Images/Events/fun_crev/Pos_CreativeCanvas_4.PNG'
+import meme from '../Images/Events/fun_crev/Memeverse_2x2.PNG'
+import bgmi from '../Images/Events/Gaming/Bgmi_4.5X3.PNG'
+import cod from '../Images/Events/Gaming/COD_4.5X3.PNG'
 import stumble from '../Images/Events/coming.jpg'
-import valo from '../Images/Events/coming.jpg'
-import conq from '../Images/Events/literary/conq.jpeg'
-import physchs from '../Images/Events/coming.jpg'
-import threads from '../Images/Events/coming.jpg'
-import image22 from '../Images/Events/coming.jpg'
+import valo from '../Images/Events/Gaming/VALORANT_4.5X3.PNG'
 import image23 from '../Images/Events/Technical/Hackavenue/hackavensis.png'
 import cruntch from '../Images/Events/Technical/Hackavenue/crunch.png'
 import utopia  from '../Images/Events/Technical/Hackavenue/utopia.png'
+import roboimag from '../Images/Events/Robotics/Pos_RoboWar_5.png'
+import robomazeimag from '../Images/Events/Robotics/Pos_RoboMaze_5.png'
+import robosocimag from '../Images/Events/Robotics/Pos_RoboSoccer_5.png'
 
 
 export const Events = [
@@ -239,7 +237,6 @@ export const Events = [
       name:"Robo War",
       catName:"robotics",
       time: "1:00pm - 3:30pm",
-
       date: "January 31st",
      
       desc:"PRIZE: ₹3000 ",
@@ -247,32 +244,32 @@ export const Events = [
         {
           name:"ABOUT",
           id:0,
-          image: threads,
+          image: roboimag,
           content: "There will be 100 students fighting against each other in team of four inside a server room to be declared as champions. The last team standing will be the champions . "
         },
         {
           name:"SIZE",
           id:1,
-          image: threads,
+          image: roboimag,
           content: " 5-6 members "
                     
         },
         {
           name:"EXPECTED FOOTFALL",
           id:2,
-          image: threads,
+          image: roboimag,
           content: " 10 teams"
         },
         {
           name:"REQIREMENT",
           id:3,
-          image: threads,
+          image: roboimag,
           content: " <div className='text-2xl'>We will keep track of time till the last player on the team is left.<br/>The team which kept the discussion going on for the longest wins.<br/>The top 2 teams will be announced as winners at the end of the day.<br/><div className='flex'><div className='font-bold'>WARNING:</div><p> If the player takes more than 5 seconds to speak then a penalty of 15 seconds will be added to the total time.</p></div></div>"
         },
         {
           name:"THEME",
           id:4,
-          image: threads,
+          image: roboimag,
           content: "Related to technology"
         },
       ],
@@ -289,32 +286,32 @@ export const Events = [
         {
           name:"ABOUT",
           id:0,
-          image: image22,
+          image: robomazeimag,
           content: "Each participant will be made to represent a buyer and a seller, they will be given a product at some base price and both have to negotiate on that base price. Buyer will target to buy the product at lowest possible price in accordance with the base price and seller will negotiate to sell the product as high as possible. Event will consist of multiple rounds at increasing difficulty level."
         },
         {
           name:"SIZE",
           id:1,
-          image: image22,
+          image: robomazeimag,
           content: " Individual Participation "
                     
         },
         {
           name:"EXPECTED FOOTFALL",
           id:2,
-          image: image22,
+          image: robomazeimag,
           content: " 30+"
         },
         {
           name:"REQIREMENT",
           id:3,
-          image: image22,
+          image: robomazeimag,
           content: " <div className='text-2xl'>Preference 1: Common room Preference <br/> 2: Any classroom </div>"
         },
         {
           name:"THEME",
           id:4,
-          image: image22,
+          image: robomazeimag,
           content: "Related to corporate meeting"
         },
       ],
@@ -333,32 +330,32 @@ export const Events = [
         {
           name:"ABOUT",
           id:0,
-          image: physchs,
+          image: robosocimag,
           content: "<div className='text-2xl'>This Event has two rounds: <br/>Round 1: Follow the Tale Each team will be shown 4 pictures. They have to explain the situation shown and keep connecting the situations together as the pictures are shown.<br/>Round 2: Defend the devil Each team will be given a controversial statement and they have to defend the  statements with proper arguments.</div> "
         },
         {
           name:"SIZE",
           id:1,
-          image: physchs,
+          image: robosocimag,
           content: " 3 "
                     
         },
         {
           name:"EXPECTED FOOTFALL",
           id:2,
-          image: physchs,
+          image: robosocimag,
           content: " 15 teams"
         },
         {
           name:"REQIREMENT",
           id:3,
-          image: physchs,
+          image: robosocimag,
           content: " <div className='text-2xl'> <h1 className='font-bold'>Venue:</h1> Any classroom with projector<br/><h1 className='font-bold'>Coordinators Required:</h1> 4-5 <br/><h1 className='font-bold'> Equipment: </h1> Mic, Scorecard, Posters, Decorative Material<br/></div>"
         },
         {
           name:"RULE",
           id:4,
-          image: physchs,
+          image: robosocimag,
           content: "<div className=''> Use of foul language is prohibited. <br/>Vulgar content will not be appreciated. <br/>Each team will be scored by every other team and the judges. After round 1, 5 teams will be selected based on the scores scored.</div>"
         },
       ],
@@ -368,7 +365,7 @@ export const Events = [
         desc:"PRIZE: Worth ₹6,000 ",
         date: "Jan 31st",
         time: "10:00am Onwards",
-        link:"https://forms.gle/DRYqRjoQXjMwWgSR8",
+        link:"https://unstop.com/hackathons/algohunt-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-881841",
         catName:"technical",
         tabs: [
           {
@@ -405,7 +402,7 @@ export const Events = [
       desc:"PRIZE: Worth ₹6,000 ",
       date: "Jan 31st",
       time: "11:00am - 1:30pm",
-      link:"https://forms.gle/DRYqRjoQXjMwWgSR8",
+      link:"https://unstop.com/p/codecrunch-dsa-marathon-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-882663",
       catName:"technical",      tabs: [
         {
           name:"ABOUT",
@@ -440,7 +437,7 @@ export const Events = [
     desc:"PRIZE: Worth ₹6,000 ",
     date: "Jan 31st",
     time: "11:00 am to 1:30pm",
-    link:"https://forms.gle/DRYqRjoQXjMwWgSR8",
+    link:"https://unstop.com/competitions/ui-utopia-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-882679",
     catName:"technical",    catName:"technical",
     tabs: [
     {
@@ -482,7 +479,7 @@ export const Events = [
   desc: "Hackathon",
   date: "Jan 31st",
   time: "1:00 PM - 4:30 PM",
-  link: "https://forms.gle/WMbWH4NPvagp1btj7",
+  link: "https://unstop.com/hackathons/hackavensis-2024-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-881791",
   catName: "technical",
   tabs: [
       {
@@ -524,25 +521,25 @@ export const Events = [
   tabs: [
       {
           name: "ABOUT",
-          image: robomaze,
+          image: scav,
           id: 0,
           content: "<span className='text-[#4A9FA0] font-semibold'>Welcome to HACK AVENSIS!</span><br/><br/>Hack Avensis is more than just a hackathon; it's an innovation hub where ideas meet execution and dreams take flight. Join us for an adrenaline-fueled journey into the world of hacking, where creativity, collaboration, and code converge to solve real-world problems.<br/><br/>This hackathon isn't just for seasoned developers; it's for anyone with a passion for problem-solving and a drive to make a difference. Whether you're a coding whiz or a newbie eager to learn, there's a place for you at HACK AVENSIS.<br/><br/>Get ready to immerse yourself in a whirlwind of innovation, mentorship, and excitement. Together, let's code, create, and change the world, one line at a time!"
       },
       {
           name: "PROBLEM STATEMENTS",
-          image: robomaze,
+          image: scav,
           id: 1,
           content: "<div className='font-bold'><ul><li>1. Enhancing Healthcare Accessibility through Telemedicine Solutions.</li><br/><li>2. Sustainable Solutions for Waste Management in Urban Areas.</li><br/><li>3. Revolutionizing Online Education Platforms for Enhanced Learning Experience.</li><br/><li>4. Optimizing Supply Chain Management for Improved Efficiency.</li></ul></div><br/>Stay updated on Unstop site for the detailed problem statements. Register now to secure your spot and receive all necessary updates!"
       },
       {
           name: "GUIDELINES",
-          image: robomaze,
+          image: scav,
           id: 2,
           content: "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>- Teams must consist of 2-4 members, with diverse skill sets encouraged for optimal collaboration.<br/><br/>- Participants must register using the provided link before the event date to ensure seamless participation.<br/><br/>- Code submissions must adhere to ethical standards and respect intellectual property rights.<br/><br/>- Participants are encouraged to leverage open-source resources and APIs, but plagiarism is strictly prohibited.<br/><br/>- Each team will have designated time slots for presentations and demos, with judges evaluating projects based on creativity, functionality, and impact.<br/><br/>- Collaboration and teamwork are key; foster a supportive environment, share knowledge, and have fun hacking!</div>"
       },
       {
           name: "VENUE",
-          image: robomaze,
+          image: scav,
           id: 3,
           content: "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>"
       }
@@ -565,32 +562,32 @@ link:"https://forms.gle/wpzQ4XNEYC7nZaFD9",
 tabs: [
 {
 name:"ABOUT",
-image: robomaze,
+image: gully,
 id:0,
 content: "Line Following Robo Maze game is to challenge participants to develop their programming and robotics skills by designing a robot that can successfully navigate through a complex maze, using sensors and advanced algorithms to make quick decisions and reach the end point within the shortest possible time."
 },
 {
 name:"WINNING CRITERIA",
-image: robomaze,
+image: gully,
 id:1,
 content: "<div className=''>1.	The victory criteria for a robot maze game involve successfully navigating the robot through the maze to a specific endpoint or goal. <br/>2.	The robot must complete the maze within a certain amount of time while following any specified rules, such as staying within the bounds of the maze or avoiding certain obstacles. <br/>3.	The robot that successfully completes the maze within the designated time limit while meeting all criteria will be declared the winner. <br/></div>"
          
 },
 {
 name:"SPECIFICATION",
-image: robomaze,
+image: gully,
 id:2,
 content: " <div className=''> <span className=' text-[#4A9FA0] font-bold '>MAZE SPECIFICATION : </span> <br/>  1.	The maze will have dead-ends and false paths, creating additional challenges for the robot to navigate through. <br/>2.	The maze will have only one entry and exit point, providing a clear objective for the robot to work towards. <br/>3.	The maze will be visually appealing and include clear markings to help the robot identify the path and navigate through the maze. <br/>4.	The maze will be designed with precision and accuracy, ensuring that the robot relies solely on its sensors and programming to navigate through the maze. <br/></div> "
 },
 {
 name:"RULES",
-image: robomaze,
+image: gully,
 id:3,
 content: " <div className='text-2xl'>1.	Contesting machines must be submitted to the organizers at the time of registration. <br/>2.	The micromouse handler is given time to adjust and calibrate the sensors after the maze is unveiled. <br/>3.	No selection of strategies or capturing of maze configuration is allowed. Violation of this rule will lead to instant disqualification. <br/> 4.	Each micromouse is allocated a total of 7 minutes of access to the maze after the 3minute sensor adjustment time. <br/>5.	Manual assistance to the micromouse during the contest is considered a disqualification. <br/>6.	Scoring is based on three parameters: run time, maze time, and the number of times the micromouse is derailed from track. </div>"
 },
 {
 name:"VENUE",
-image: robomaze,
+image: gully,
 id:4,
 content: "<span className=' text-[#4A9FA0] font-bold '> SEMINAR HALL 4TH FLOOR.  </span>   "
 },
