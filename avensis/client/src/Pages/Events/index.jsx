@@ -46,7 +46,7 @@ const Index = () => {
       const technical = Events.slice(9,13);
       const gaming = Events.slice(2,6);
       const creativity = Events.slice(0,2);
-      const cultural = Events.slice(13,15);
+      const cultural = Events.slice(13,16);
 
 
   return (
