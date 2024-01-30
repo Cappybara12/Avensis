@@ -41,21 +41,6 @@ const Index = () => {
       <section id="mainevents">
         <img src={image1} class="sphere0"/>
         
-        <div id="mainevent">
-      <div id="event1" ref={ref} className={animation}>
-        <img src={image2} alt="event1" className={`${css(styles.fadeInRight)}`}/>
-        <div className={`about ${css(styles.fadeInRight)}`}>
-          <span>COMING SOON</span>
-          <p className='blur-[5px]'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Laboriosam aut
-            aperiam magni facere, vel sit quae cupiditate quas eum rem aliquam
-            culpa corporis consectetur sunt, placeat animi nam eveniet.
-            Maiores.
-          </p>
-        </div>
-      </div>
-    </div>
         {/* <img src={image3} class="shape5"/>
         <div id="Events" > 
                 {/* <img src={image4}/> */}
