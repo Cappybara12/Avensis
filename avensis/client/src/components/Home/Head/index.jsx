@@ -7,6 +7,16 @@ import {Link} from "react-router-dom"
 // import { bounce } from 'react-animations';
 import { fadeInLeftBig ,fadeInRightBig ,tada ,flash } from 'react-animations';
 import { StyleSheet, css } from 'aphrodite';
+// head.js
+
+import { account } from '../../../services/appwriteService.js'; 
+const getPass = async () => {
+  try {
+      account.createOAuth2Session('google', 'http://localhost:3000/pass', 'http://localhost:3000/failure');
+  } catch (error) {
+      console.error('Login failed:', error);
+  }
+};
 
 const index = () => {
 
@@ -46,10 +56,10 @@ const index = () => {
             </div>
             <img src={image2} className="shape2"/>
         </div>
-        <div className="buttons ">
-            <Link to ="https://avensis-backend.msit.in/auth/google/callback"><button className= {`md:mt-16 subscribe2 ${css(styles.tada)}`}>GET PASS</button></Link>
+        <div className="buttons">
+            <button onClick={getPass} className={`md:mt-16 subscribe2 ${css(styles.tada)}`}>GET PASS</button>
             <div className='w-[40px]'></div>
-            <Link to="/events"><button className= {`md:mt-16 subscribe3 ${css(styles.tada)}`} >EXPLORE</button></Link>
+            <Link to="/events"><button className={`md:mt-16 subscribe3 ${css(styles.tada)}`}>EXPLORE</button></Link>
         </div>
         <img src={image3} id="shape5"/>
         </section>

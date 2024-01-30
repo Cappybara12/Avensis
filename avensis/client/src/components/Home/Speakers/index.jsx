@@ -5,7 +5,11 @@ import image from '../../../Images/speech.png'
 import Sphere1 from '../../../Images/Sphere-Black-Matte1(1).png' 
 import image3 from '../../../Images/companylogo.png'
 import shape3 from '../../../Images/shape3.png'
-import intrainz from '../../../Images/Sponsors/Intrainz.png'
+import Flapone from '../../../Images/Sponsors/Flapone.jpeg'
+import easemytrip from '../../../Images/Sponsors/easemytrip.png'
+import Maac from '../../../Images/Sponsors/Maac.jpeg'
+import Siec from '../../../Images/Sponsors/Siec.jpeg'
+
 import { Events } from '../../../config/events.js'
 
 const index = () => {
@@ -32,9 +36,22 @@ const index = () => {
 
     const sponsors = [
         {
-            "name": "Education Partner",
-            "image": intrainz
+            "name": "Ease My Trip",
+            "image": easemytrip
+        },
+        {
+            "name": "Siec Education ",
+            "image": Siec
+        },
+        {
+            "name": "Flapone Aviation",
+            "image": Flapone
+        },
+        {
+            "name": "MAAC",
+            "image": Maac
         }
+
     ];
 
 
@@ -65,7 +82,7 @@ const index = () => {
         </div>
         </div>
         <div className='w-full mt-12'>
-            <p className='text-white font-[ultra] text-4xl tracking-widest ml-4'> SPEAKERS</p>
+            <p className='text-white font-[ultra] text-4xl tracking-widest ml-4'> </p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto z-[99]'>
 
                     {

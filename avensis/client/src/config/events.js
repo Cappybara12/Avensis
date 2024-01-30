@@ -291,7 +291,7 @@ export const Events = [
     name: " Robo maze",
     catName: "robotics",
     date: "January 31st",
-    // time: "11:00am - 1:00pm",
+    time: "11:00am - 12:30pm",
     desc: "Prizes: ₹3500 and ₹1500",
     tabs: [
       {
