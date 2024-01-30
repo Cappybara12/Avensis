@@ -4,7 +4,7 @@ import Logo from "../../Images/logo_tri.png"
 import { useToImage } from '@hcorta/react-to-image'
 import pass from "../../Images/passes.jpeg"
 import cookie from "js-cookie"
-
+import { account } from '../../services/appwriteService.js'
 const Index = () => {
   const { ref, isLoading, getPng ,dataURL} = useToImage()
   const [downloadURL, setDownloadURL] = useState(null);
@@ -14,21 +14,15 @@ const Index = () => {
  console.log(name);
 
     useEffect(() => {
-      fetch('https://avensis-backend.msit.in/api/current_user', {
-        credentials: 'include'
-            })
-      .then(response => response.json())
-      .then(user => {
-        console.log('User info:', user);
-        const userName = user.name;
-        console.log('User name:', userName);
-        setName(user.name);
-        setEmail(user.email)
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-    
+      const promise = account.get();
+
+    promise.then(function (response) {
+        setName(response.name) // Success
+        setEmail(response.email) // Success
+
+    }, function (error) {
+        console.log(error); // Failure
+    });
     }, []);
   function display()
   {
@@ -48,7 +42,7 @@ const Index = () => {
 
   return (
     <div className='w-full' ref={ref}>
-        <div className='bg-cover bg-[url("https://i.ibb.co/dBgW79p/Whats-App-Image-2023-04-14-at-11-23-21-PM.jpg")] h-[115px] md:h-[260px]  w-[370px] md:w-[800px] mx-auto shadow-lg  my-24 shadow-white'>
+        <div className='bg-cover bg-[url("https://i.ibb.co/rZzZWbx/passes.png")] h-[115px] md:h-[260px]  w-[370px] md:w-[800px] mx-auto shadow-lg  my-24 shadow-white'>
         
                 {display()}
 
