@@ -12,7 +12,7 @@ import { StyleSheet, css } from 'aphrodite';
 import { account } from '../../../services/appwriteService.js'; 
 const getPass = async () => {
   try {
-      account.createOAuth2Session('google', 'http://localhost:3000/pass', 'http://localhost:3000/failure');
+      account.createOAuth2Session('google', 'https://avensis.vercel.app/pass', 'https://avensis.vercel.app/pass');
   } catch (error) {
       console.error('Login failed:', error);
   }
